@@ -1,0 +1,41 @@
+Arguments: 
+  /usr/bin/node /usr/bin/yarn add epress.js
+
+PATH: 
+  /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  16.1.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/epress.js: Not found
+      at Request.params.callback [as _callback] (/usr/lib/node_modules/yarn/lib/cli.js:66988:18)
+      at Request.self.callback (/usr/lib/node_modules/yarn/lib/cli.js:140662:22)
+      at Request.emit (node:events:365:28)
+      at Request.<anonymous> (/usr/lib/node_modules/yarn/lib/cli.js:141634:10)
+      at Request.emit (node:events:365:28)
+      at IncomingMessage.<anonymous> (/usr/lib/node_modules/yarn/lib/cli.js:141556:12)
+      at Object.onceWrapper (node:events:471:28)
+      at IncomingMessage.emit (node:events:377:35)
+      at endReadableNT (node:internal/streams/readable:1312:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "expressJS",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
